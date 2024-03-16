@@ -1,0 +1,18 @@
+import pyfiglet
+
+def print_Creaative(text):
+ascii_art = pyfiglet.figlet_format(text)
+print(ascii_art)
+
+def main():
+Creative_name = str(input("Please enter your name: "))
+Creative_dreamjob = str(input("What is your dream job? "))
+
+print("Hi!")
+print_Creative(Creative_name)
+
+print("Your dream job is to become a")
+print_Creative(Creative_dreamjob)
+
+if __name__ == "__Main__:
+main()
